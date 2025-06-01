@@ -112,6 +112,8 @@ sys.modules["qiskit._accelerate.high_level_synthesis"] = _accelerate.high_level_
 sys.modules["qiskit._accelerate.remove_identity_equiv"] = _accelerate.remove_identity_equiv
 sys.modules["qiskit._accelerate.circuit_duration"] = _accelerate.circuit_duration
 
+sys.modules["qiskit._accelerate.mps_op"] = _accelerate.mps_op 
+
 from qiskit.exceptions import QiskitError, MissingOptionalLibraryError
 
 # The main qiskit operators

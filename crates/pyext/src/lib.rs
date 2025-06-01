@@ -69,6 +69,7 @@ fn _accelerate(m: &Bound<PyModule>) -> PyResult<()> {
     add_submodule(m, ::qiskit_accelerate::uc_gate::uc_gate, "uc_gate")?;
     add_submodule(m, ::qiskit_accelerate::utils::utils, "utils")?;
     add_submodule(m, ::qiskit_accelerate::vf2_layout::vf2_layout, "vf2_layout")?;
+    add_submodule(m, ::qiskit_accelerate::mps_op::mps_op, "mps_op")?;
     add_submodule(m, ::qiskit_circuit::circuit, "circuit")?;
     add_submodule(m, ::qiskit_circuit::converters::converters, "converters")?;
     add_submodule(m, ::qiskit_qasm2::qasm2, "qasm2")?;

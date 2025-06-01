@@ -41,6 +41,8 @@ qiskit-accelerate = { path = "crates/accelerate" }
 qiskit-circuit = { path = "crates/circuit" }
 qiskit-qasm2 = { path = "crates/qasm2" }
 qiskit-qasm3 = { path = "crates/qasm3" }
+# metal_extension crate.
+qiskit-metalext = { path = "crates/metalext" }
 
 [profile.release]
 lto = 'fat'

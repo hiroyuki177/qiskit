@@ -52,4 +52,5 @@ setup(
         )
     ],
     options={"bdist_wheel": {"py_limited_api": "cp39"}},
+    package_data={"qiskit": ["libComplexMatrix.dylib"]},
 )
